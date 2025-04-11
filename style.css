@@ -23,10 +23,11 @@ body {
 }
 
 .hero {
-  display: flex;
-  align-items: center;
-  padding: 40px;
-  gap: 40px;
+
+
+  margin-left: 19%;
+
+
 }
 
 .hero-text {
@@ -54,6 +55,7 @@ body {
 
 .menu {
   padding: 40px;
+  margin-left: 19%;
 }
 
 .menu h2 {
@@ -118,16 +120,19 @@ body {
 }
 
 footer {
-  display: flex;
+  display: block;
   justify-content: space-between;
   background-color: #ccc;
   padding: 30px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .socials img {
   width: 30px;
   margin-right: 10px;
 }
+
 
 .new_img{
   float: right;
